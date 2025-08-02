@@ -1,0 +1,8 @@
+# Comandos utilizados
+git add
+git commit
+git branch
+git branch --oneline
+git log --oneline
+git push
+git add
