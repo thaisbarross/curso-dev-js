@@ -1,0 +1,128 @@
+Microsoft Windows [versão 10.0.22621.5624]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+U:\Users\09983571978>mkdir projeto_reponsivo
+
+U:\Users\09983571978>mkdir projeto_responsivo.txt
+
+U:\Users\09983571978>mkdir projeto_responsivo
+
+U:\Users\09983571978>cd Desktop
+
+U:\Users\09983571978\Desktop>mkdir projeto_responsivo
+
+U:\Users\09983571978\Desktop>cd  projeto_responsivo
+
+U:\Users\09983571978\Desktop\projeto_responsivo>mkdir public src docs
+
+U:\Users\09983571978\Desktop\projeto_responsivo>cd public
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>mkdir html css js media
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd html
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>echo > home.html.txt
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html> echo projeto responsivo > home.html.txt
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>cd css
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>cd css
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>cd css
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>destop
+'destop' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>cd .. css
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>cd ..\css
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css>echo theme.css > body { margin: ; padding: ; background-color: lightgray; }.txt
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd media
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\media>mkdir imagens fontes
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\media>rename body theme.css
+O sistema não pode encontrar o arquivo especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\media>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css>rename body theme.css
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css>copy theme.css ..\..\docs
+        1 arquivo(s) copiado(s).
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css> ..\js
+'..\js' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\css>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd js
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\js>echo console.log("utilitários carregados!"); > utils.js
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\js>echo console.log("site responsivo pronto!"); > responsivo.js
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\js>rename utils.js helpers.js
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\js>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>dir
+ O volume na unidade U é Users
+ O Número de Série do Volume é 6A8B-1E39
+
+ Pasta de U:\Users\09983571978\Desktop\projeto_responsivo\public
+
+26/07/2025  09:20    <DIR>          .
+26/07/2025  09:18    <DIR>          ..
+26/07/2025  09:50    <DIR>          css
+26/07/2025  09:25    <DIR>          html
+26/07/2025  10:00    <DIR>          js
+26/07/2025  09:46    <DIR>          media
+               0 arquivo(s)              0 bytes
+               6 pasta(s)   846.541.664.256 bytes disponíveis
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd docs
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd ..\cd ..
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo>cd docs
+
+U:\Users\09983571978\Desktop\projeto_responsivo\docs>del theme.css
+
+U:\Users\09983571978\Desktop\projeto_responsivo\docs>cd ..
+
+U:\Users\09983571978\Desktop\projeto_responsivo>notepad home.html
+
+U:\Users\09983571978\Desktop\projeto_responsivo>cd public
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public>cd html
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>note pad home.html
+'note' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>notepad home.html
+
+U:\Users\09983571978\Desktop\projeto_responsivo\public\html>
+
