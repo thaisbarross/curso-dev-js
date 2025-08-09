@@ -1,0 +1,35 @@
+Uma empresa precisa de um sistema de autenticação de usuários, que inclui três funcionalidades principais: login, cadastro de novos usuários e recuperação de senha. Para isso, sua equipe foi encarregada de definir os requisitos funcionais e não funcionais do sistema.
+
+Requisitos funcionais (RF)
+
+Permitir login com e-mail e senha;
+Permitir login via social media;
+Validar credenciais permitindo acesso apenas se estiverem válidas;
+Exibir mensagens de erro em caso de falha da autenticação;
+Permitir que o usuário permaneça logado por um período configurável;
+Permitir opção “Lembrar-me” para manter sessão ativa;
+Impedir cadastro com e-mail já existente;
+Permitir recuperação de senha via e-mail;
+
+Requisitos Não Funcionais (RNF)
+
+Autenticação deve ocorrer em até 5 segundos;
+Senhas devem ser armazenadas de forma criptografada;
+O sistema deve ter a funcionalidade 24/7;
+Seguir diretrizes da LGPD para tratamento de dados pessoais;
+Link de recuperação deve expirar após 1 hora;
+link de redefinição deve ser único, seguro e válido apenas uma vez;
+Utilizar CAPTCHA para prevenir cadastros automatizados;
+Acessibilidade;
+Backup;
+LGPD;
+
+Regras de Negócio (RN)
+
+Login só será permitido para usuários com conta ativa;
+Após 3 tentativas de login, o sistema deve bloquear temporariamente o acesso por 10 minutos;
+Login será feito apenas com e-mail cadastrado;
+Senha deve ter no mínimo 12 caracteres, incluindo letras maiusculas e minusculas, números e símbolos;
+Nova senha não pode ser igual à anterior;
+Link de recuperação só pode ser usado uma vez;
+Usuário deve aceitar os termos;
