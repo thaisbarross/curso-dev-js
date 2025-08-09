@@ -1,0 +1,28 @@
+Uma pequena lanchonete quer criar um sistema simples de pedidos online. O cliente deve poder visualizar o cardápio, montar seu pedido (escolher lanche, bebida e adicionais), informar nome e forma de pagamento, além de acompanhar o status do pedido. O atendente da lanchonete poderá visualizar os pedidos e alterar o status conforme o andamento (ex: recebido, em preparo, pronto).
+
+Requisitos funcionais (RF)
+
+Permitir que o cliente visualize o cardápio com lanches, bebidas e adicionais:
+Permitir que o cliente monte seu pedido escolhendo itens e quantidades;
+Que o cliente informe dados necessários e forma de pagamento para realizar o pedido;
+Registrar o pedido com os dados informados e gerar um número de identificação;
+Permitir que o cliente acompanhe o status do pedido em tempo real;
+Permitir que o atendente visualize todos os pedidos recebidos;
+Permitir que o atendente altere o status do pedido exemplo: Recebido - Em preparo - Pronto;
+Exibir o status atualizado para o cliente;
+
+Requisitos Não Funcionais (RNF)
+O sistema deve ser responsivo;
+O tempo de resposta para ações de comando como montar pedido ou atualizar status deve ser de 2 à 3 segundos;
+Todos os dados dos pedidos devem ser armazenados de forma segura;
+O sistema deve suportar múltiplos acessos simultâneos sem perder seu desempenho;
+A interface deve ser intuitiva e fácil manuseio tanto para os clientes quanto para atendentes;
+
+Regras de Negócio (RN)
+
+O pedido só será enviado se o cliente informar dados necessários e forma de pagamento;
+O cliente não poderá alterar o pedido após o envio;
+O atendente deve seguir a ordem de chegada dos pedidos para ser feito o preparo;
+O status do pedido deve seguir a sequência: Recebido - Em preparo - Pronto;
+Pedidos prontos devem ser destacados de forma fácil para agilizar a entrega;
+Adicionais ter custo á parte, somando com o valor total do pedido;
