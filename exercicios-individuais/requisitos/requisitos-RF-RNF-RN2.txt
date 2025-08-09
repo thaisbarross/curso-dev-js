@@ -10,13 +10,18 @@ Permitir que o cliente acompanhe o status do pedido em tempo real;
 Permitir que o atendente visualize todos os pedidos recebidos;
 Permitir que o atendente altere o status do pedido exemplo: Recebido - Em preparo - Pronto;
 Exibir o status atualizado para o cliente;
+feedback do cliente;
+Cadastro de promoções;
 
 Requisitos Não Funcionais (RNF)
+
 O sistema deve ser responsivo;
 O tempo de resposta para ações de comando como montar pedido ou atualizar status deve ser de 2 à 3 segundos;
-Todos os dados dos pedidos devem ser armazenados de forma segura;
+Todos os dados dos pedidos devem ser armazenados de forma segura, criptografados;
 O sistema deve suportar múltiplos acessos simultâneos sem perder seu desempenho;
 A interface deve ser intuitiva e fácil manuseio tanto para os clientes quanto para atendentes;
+Backup de banco;
+Acessibilidade;
 
 Regras de Negócio (RN)
 
@@ -26,3 +31,5 @@ O atendente deve seguir a ordem de chegada dos pedidos para ser feito o preparo;
 O status do pedido deve seguir a sequência: Recebido - Em preparo - Pronto;
 Pedidos prontos devem ser destacados de forma fácil para agilizar a entrega;
 Adicionais ter custo á parte, somando com o valor total do pedido;
+Entrega só acima de R$20,00;
+Taxa de entrega apartir de um raio de 3km da lanchonete;
