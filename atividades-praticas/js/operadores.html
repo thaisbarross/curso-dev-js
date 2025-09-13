@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operadores js</title>
+</head>
+<body>
+
+    <p>aperte f12 para ver o resultado!</p>
+
+
+    <script>
+
+        // variáveis
+
+    var exemplovar = "Thaís";
+    var exemplovar = "senai";
+    exemplovar= "11111";
+    console.log(exemplovar)
+
+    let exemplo ="prudente";
+        exemplolet = "regente";
+        console.log (exemplolet)
+        let exemplolet2 ="11111";
+
+        const exemploconst = "setembro";
+        const exemploconst2 = "outubro";
+        // exemploconst = "Thaís";
+        
+        // uma linha de comentario
+
+        /*
+        várias linhas de comentário
+        */
+       
+        // ctrl + ; comenta e descomenta
+
+        // TIPOS DE DADOS
+
+        // string
+        const nome = "Thaís";
+        const sobrenome = 'Barros';
+        const multiplaslinhas = `
+        primeira linha
+        segunda linha
+        terceira linha`;
+
+        console.log(nome,sobrenome);
+        console.log (nome,"-",sobrenome);
+        console.log(nome+"-"+sobrenome);
+        console.log(`${nome}-${sobrenome}`);
+
+        //number(inteiros e decimais)
+        const idade = 28;
+        const altura = 1.75;
+        const temperatura = -3;
+        console.log(idade);
+
+        //boolean (verdadeiro ou falso)
+        const ativo = true;
+        const inativo = false;
+        const maioridade = idade >= 28;
+        console.log (maioridade);
+
+        //null e undefined
+        const valornulo = null;
+        let valorindefinido;
+
+        //OPERADORES ARITIMÉTICOS
+        // * - * / % ** ++ --
+
+        const a = 15;
+        const b = 5;
+
+        //PEMDAS (ORDEM DOS OPERADORES, SEQUÊNCIA . PARA QUEBRA USAR PARENTESES ())
+
+        console.log (a + b);
+        console.log (a - b);
+        console.log (a * b);
+        console.log (a / b);
+        console.log (a % b);
+        console.log (a ** b);
+
+        console.log ((a + b) / a);
+
+        let contador = 10;
+
+        console.log (contador++);
+        console.log(contador);
+        console.log (++contador);
+        
+        console.log (contador--);
+        console.log(contador);
+        console.log (--contador);
+
+        //atribuição
+        let num = 10;
+
+        num += 5; // num = num + 5
+        console.log (num);
+
+        num *= 2; // num = num * 2
+        console.log (num);
+
+        num /= 4; // num = num / 4
+        console.log (num);
+
+        //operadores de comparação
+        const x = 5;
+        const y = "5";
+        const z = 10;
+
+        console.log (x == y);
+        console.log (x === y);
+
+        console.log (x != y);
+        console.log (x !== y);
+
+        console.log (x > y);
+        console.log (z >= x); // maior ou igual
+        console.log (x < y);
+        console.log (z <= x); // maior ou igual
+
+        // operadores lógicos
+        // ! not, || or, && and
+
+        const temidade = true;
+        const temcarteira = true;
+        const temdinheiro = false;
+
+        console.log (!temidade);
+        console.log (temidade && temcarteira);
+        console.log (temidade && temcarteira && temdinheiro);
+        console.log (temidade || temcarteira || temdinheiro);
+
+        //conversões de tipo
+
+        //conversões implícitas
+        console.log ("5" + 2);
+        console.log ("5" - 2);
+        console.log ("5" * 2);
+
+        //conversões explícitas
+
+        //string -> number
+        const textonumero = "42.7";
+        console.log (Number(textonumero));
+        console.log (parseInt(textonumero));
+        console.log (parseFloat(textonumero));
+        console.log (parseFloat("42px"));
+
+        //number -> string
+        const numero = 123.10;
+        console.log (String(numero));
+        console.log (numero.toString());
+
+        //bool
+        console.log (Boolean (0));
+        console.log (Boolean (1));
+        console.log (Boolean (""));
+        console.log (Boolean ("Thaís"));
+
+        const numero1 = 1;
+        const string1 = "Thaís";
+
+        console.log (typeof numero1);
+        console.log (typeof string1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
