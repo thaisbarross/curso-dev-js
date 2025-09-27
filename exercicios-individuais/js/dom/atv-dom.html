@@ -85,8 +85,38 @@
         const peso = Number(document.querySelector("#peso").value);
         const altura = Number(document.querySelector("#altura").value);
         const imc = peso / (altura ** 2); 
-        document.querySelector("#resultado_imc").textContent = imc.toFixed(2);
-       })
+        let mensagem, cor;
+
+
+            if (imc < 18.5){
+                mensagem = "Abaixo do peso";
+                cor = "yellow";
+            }
+            else if (imc <= 24.9){
+                mensagem = "Peso normal";
+                cor = "green";
+            }
+            else if (imc <= 29.9){
+                mensagem = "Sobrepeso";
+                cor = "orange";
+            }
+            else if (imc <= 34.9){
+                mensagem = "Obesidade grau 1";
+                cor = "red";
+            }
+            else if (imc <= 39.9){
+                mensagem = "Obesidade grau 2";
+                cor = "firebrick";
+            }
+            else {
+                mensagem = "Obesidade grau 3 ou mórbida";
+                cor = "darkred";
+            }
+
+            document.querySelector("#resultado_imc").textContent = ` o seu imc é ${imc.toFixed(2)} e a classificação é ${mensagem}`;
+
+            document.querySelector("#resultado_imc").style.color = cor;
+       });
 
     </script>
 

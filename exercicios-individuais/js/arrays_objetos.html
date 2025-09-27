@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Arrays e Objetos JS</title>
+</head>
+<body>
+
+    <p>F12 para exibir</p>;
+
+    <script>
+        // exercicio 1
+
+        const playlist = ["Afrodite", "Perdendo juízo", "Xeque-Mate"];
+        console.log(playlist);
+
+        console.log(playlist[0]);
+
+        playlist.push("Banco do Carona");
+        console.log(playlist);
+
+        playlist.pop();
+        console.log(playlist);
+
+        console.log (playlist.length);
+
+        // exercicio 2
+
+        const filme = {
+            título : "Sobrenatural", 
+            diretor : "Eric Kripke",
+            ano : 2005,
+        }
+
+        console.log(`O filme $[filme.título], dirigido por $[filme.diretor], foi lançado em $[filme.ano].`);
+
+        filme.personagens = ["Dean", "Sam", "Castiel"];
+
+        console.log(filme.personagens[0]);
+
+        console.log(filme);
+
+    </script>
+    
+</body>
+</html>
